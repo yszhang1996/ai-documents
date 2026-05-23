@@ -1,4 +1,4 @@
-<a id="top"></a>
+<a id="toc-top"></a>
 # Markdown 编辑器能力测试
 
 > 一份全面的 Markdown 语法测试文档，覆盖常见与边缘用例。
@@ -8,31 +8,31 @@
 
 ## 目录
 
-- [1. 标题层级](#h)
-- [2. 文本样式](#text)
-- [3. 链接](#link)
-- [4. 图片](#img)
-- [5. 代码](#code)
-- [6. 表格](#table)
-- [7. 列表](#list)
-- [8. 任务列表](#task)
-- [9. 引用](#quote)
-- [10. 分割线](#hr)
-- [11. 脚注](#fn)
-- [12. HTML 标签](#html)
-- [13. 转义与特殊字符](#escape)
-- [14. Emoji](#emoji)
-- [15. 数学公式](#math)
-- [16. Mermaid 图表](#mermaid)
-- [17. 定义列表](#dl)
-- [18. 缩进与空白](#space)
-- [19. 自动链接与邮箱](#auto)
-- [20. 参考式链接](#ref)
-- [21. 内嵌 HTML 表格](#html-table)
+- [1. 标题层级](#toc-h)
+- [2. 文本样式](#toc-text)
+- [3. 链接](#toc-link)
+- [4. 图片](#toc-img)
+- [5. 代码](#toc-code)
+- [6. 表格](#toc-table)
+- [7. 列表](#toc-list)
+- [8. 任务列表](#toc-task)
+- [9. 引用](#toc-quote)
+- [10. 分割线](#toc-hr)
+- [11. 脚注](#toc-fn)
+- [12. HTML 标签](#toc-html)
+- [13. 转义与特殊字符](#toc-escape)
+- [14. Emoji](#toc-emoji)
+- [15. 数学公式](#toc-math)
+- [16. Mermaid 图表](#toc-mermaid)
+- [17. 定义列表](#toc-dl)
+- [18. 缩进与空白](#toc-space)
+- [19. 自动链接与邮箱](#toc-auto)
+- [20. 参考式链接](#toc-ref)
+- [21. 内嵌 HTML 表格](#toc-html-table)
 
 ---
 
-<a id="h"></a>
+<a id="toc-h"></a>
 ## 1. 标题层级
 
 # H1 - 一级标题
@@ -52,11 +52,11 @@ H1 交替写法
 H2 交替写法
 ------------
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="text"></a>
+<a id="toc-text"></a>
 ## 2. 文本样式
 
 | 样式 | 语法 | 渲染效果 |
@@ -79,11 +79,11 @@ H2 交替写法
 
 **非标准高亮**（取决于编辑器）：==高亮文字==
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="link"></a>
+<a id="toc-link"></a>
 ## 3. 链接
 
 ### 3.1 基本链接
@@ -92,7 +92,7 @@ H2 交替写法
 - [外部链接（http）](http://www.example.com)
 - [带标题的链接](https://www.example.com "鼠标悬停时显示的标题")
 - [相对路径链接](./markdown-toc-demo.md)
-- [锚点链接 - 跳转到目录](#top)
+- [锚点链接 - 跳转到目录](#toc-top)
 - <https://www.example.com> （自动链接）
 - [链接中含有空格](<https://www.example.com/path with spaces>)
 
@@ -113,11 +113,11 @@ H2 交替写法
 - URL：<https://www.example.com>
 - 非链接：<这不是链接>
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="img"></a>
+<a id="toc-img"></a>
 ## 4. 图片
 
 ### 4.1 基本图片
@@ -146,11 +146,11 @@ H2 交替写法
   <img src="https://via.placeholder.com/200x50/d63384/fff?text=Centered" />
 </div>
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="code"></a>
+<a id="toc-code"></a>
 ## 5. 代码
 
 ### 5.1 缩进代码块（4 空格）
@@ -247,11 +247,11 @@ print("Hello, World!")
 这是一行非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常长的代码行，用来测试编辑器是否支持横向滚动。
 ```
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="table"></a>
+<a id="toc-table"></a>
 ## 6. 表格
 
 ### 6.1 基本对齐
@@ -295,11 +295,11 @@ print("Hello, World!")
 | `\|x\|` | \|x\| |
 | `a \| b` | a \| b |
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="list"></a>
+<a id="toc-list"></a>
 ## 7. 列表
 
 ### 7.1 无序列表
@@ -367,11 +367,11 @@ print("Hello, World!")
 4. 第四项
 5. 第五项
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="task"></a>
+<a id="toc-task"></a>
 ## 8. 任务列表
 
 - [x] 已完成的任务
@@ -384,11 +384,11 @@ print("Hello, World!")
   - [ ] 嵌套待完成
     - [ ] 第三层嵌套
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="quote"></a>
+<a id="toc-quote"></a>
 ## 9. 引用
 
 ### 9.1 基本引用
@@ -437,11 +437,11 @@ print("Hello, World!")
 > - [ ] 开发
 > - [ ] 测试
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="hr"></a>
+<a id="toc-hr"></a>
 ## 10. 分割线
 
 标准分割线：
@@ -462,11 +462,11 @@ ___
 
 * * *
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="fn"></a>
+<a id="toc-fn"></a>
 ## 11. 脚注
 
 这是第一段文字，包含一个脚注引用[^1]。
@@ -483,11 +483,11 @@ ___
 
     这是脚注的第二段。
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="html"></a>
+<a id="toc-html"></a>
 ## 12. HTML 标签
 
 ### 12.1 折叠面板
@@ -548,11 +548,11 @@ print("Hello from inside details!")
 以下是不会被渲染的内容：
 <!-- TODO: 这段注释用户看不到 -->
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="escape"></a>
+<a id="toc-escape"></a>
 ## 13. 转义与特殊字符
 
 ### 13.1 反斜杠转义
@@ -584,11 +584,11 @@ print("Hello from inside details!")
 
 两个反斜杠：\\\\
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="emoji"></a>
+<a id="toc-emoji"></a>
 ## 14. Emoji
 
 ### 14.1 Emoji 短代码（取决于编辑器）
@@ -607,11 +607,11 @@ print("Hello from inside details!")
 
 👍🏻 👍🏼 👍🏽 👍🏾 👍🏿
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="math"></a>
+<a id="toc-math"></a>
 ## 15. 数学公式
 
 ### 15.1 行内公式
@@ -684,11 +684,11 @@ $$
 \ce{2H2 + O2 ->[\Delta] 2H2O}
 $$
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="mermaid"></a>
+<a id="toc-mermaid"></a>
 ## 16. Mermaid 图表
 
 ### 16.1 流程图
@@ -789,11 +789,11 @@ pie title 编程语言使用分布
     "其他" : 4.3
 ```
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="dl"></a>
+<a id="toc-dl"></a>
 ## 17. 定义列表
 
 一些 Markdown 扩展支持定义列表：
@@ -810,11 +810,11 @@ Banana
 : 一种长条形黄色水果，富含钾。
 : 也可以有多个定义。
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="space"></a>
+<a id="toc-space"></a>
 ## 18. 缩进与空白
 
 ### 18.1 行尾两个空格（强制换行）  
@@ -842,11 +842,11 @@ Banana
 This is English mixed with 中文 content in the same paragraph. 看看中英文之间的间距是否合理。
 Another English sentence followed by 另一段中文。And then English again.
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="auto"></a>
+<a id="toc-auto"></a>
 ## 19. 自动链接与邮箱
 
 ### 19.1 自动链接
@@ -867,11 +867,11 @@ ftp://ftp.example.com
 
 tel:+86-138-0000-0000
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="ref"></a>
+<a id="toc-ref"></a>
 ## 20. 参考式链接与图片
 
 ### 20.1 参考式链接
@@ -896,11 +896,11 @@ tel:+86-138-0000-0000
 [placeholder]: https://via.placeholder.com/150x50/0d6efd/fff?text=Reference+Style
 [Baidu]: https://www.baidu.com
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
-<a id="html-table"></a>
+<a id="toc-html-table"></a>
 ## 21. 内嵌 HTML 表格
 
 <table>
@@ -944,13 +944,12 @@ tel:+86-138-0000-0000
   </tbody>
 </table>
 
-[↑ 回到目录](#top)
+[↑ 回到目录](#toc-top)
 
 ---
 
 ## 最后
 
-<a id="end"></a>
 
 > **测试完成！** 如果你能看到这里，并且以上所有元素都正确渲染 —
 > 那么你的 Markdown 编辑器表现非常出色。
@@ -973,4 +972,4 @@ tel:+86-138-0000-0000
 
 *此文档用于测试 Markdown 编辑器的渲染能力，最后更新于 2026-05-24。*
 
-[回到顶部 ↑](#top)
+[回到顶部 ↑](#toc-top)
